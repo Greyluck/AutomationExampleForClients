@@ -3,7 +3,6 @@ package com.ionate;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import junit.framework.Assert;
 
 public class AppTest 
     extends TestCase
@@ -16,7 +15,7 @@ public class AppTest
         super( testName );
 
         boolean ionateWebPageResult = App.returnWebTestResult();
-        Assert.assertTrue("Test failed. ", ionateWebPageResult);
+        assertTrue("Test failed. ", ionateWebPageResult);
     }
 
     /**
