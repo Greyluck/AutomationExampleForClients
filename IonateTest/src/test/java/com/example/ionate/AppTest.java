@@ -15,9 +15,11 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
-        //boolean result = App.
-        double result=App.calculateSimpleInterest(10000,5,7);
-        Assert.assertEquals("Test failed. ",35000.0,result);
+     //   double result=App.calculateSimpleInterest(10000,5,7);
+     //   Assert.assertEquals("Test failed. ",35000.0,result);
+
+        boolean ionateWebPageResult = App.returnWebTestResult();
+        Assert.assertTrue("Test failed. ", ionateWebPageResult);
     }
 
     /**
