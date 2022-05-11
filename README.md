@@ -1,4 +1,4 @@
-# AutomationExampleForClients
+# Automation Example For New Clients
 TestMavenProject
 
 NOTE: Maven should be installed before executing the command.
