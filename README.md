@@ -3,10 +3,12 @@
 Before starting 
 ---
 - Maven should be installed before executing the command.
+- The chrome driver should be updated (Check documentation folder for info)
 
 Starting:
 ---
-3) Open a CMD and go to [ThisFolderPath]\MavenProject\IonateTest.
-4) Execute the "mvn test" command.
-5) Wait for dependencies to be downloaded, the test will start after that.
+1) Open a CMD 
+2) Go to "Project\AutomaticTestForDemo"
+3) Execute the command "mvn test".
+4) Wait for dependencies to be downloaded, the test will start after that.
 
