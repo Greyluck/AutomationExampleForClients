@@ -18,11 +18,14 @@ public class LaunchBrowser {
     public static boolean executeMainTest() throws InterruptedException {
 
         //----------------------------------------------------------------------
+        // Basic settings
+        String webPageToBeTested = "https://asimplewebpage.netlify.app/";
+
         // Page 1
-        String[] dataToComplete = {"Carlos","Azuceno", "36","28/12/1984'"};
+        String[] dataToComplete = {"Emilio","Ontiveros", "30","6/11/1991'"};
         String[] fieldsToComplete = {"fname","lname","age","dob"};
         // Page 2
-        String[] dataToComplete2 = {"Filipinas","Rumania","CDMX","Mexico"};
+        String[] dataToComplete2 = {"Maipu","851 3C","Buenos Aires","Argentina"};
         String[] fieldsToComplete2 = {"street1","street2","state","country"};
         //----------------------------------------------------------------------
 
@@ -34,7 +37,7 @@ public class LaunchBrowser {
         int loadTime = 1500;
 
         // open the web app
-        driver.navigate().to("https://ionatetest.netlify.app/");
+        driver.navigate().to(webPageToBeTested);
         driver.manage().window().maximize();
 
         // Page 1
