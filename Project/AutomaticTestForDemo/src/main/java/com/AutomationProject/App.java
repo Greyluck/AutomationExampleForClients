@@ -1,4 +1,4 @@
-package com.ionate;
+package com.AutomationProject;
 
 /**
  * Hello world!

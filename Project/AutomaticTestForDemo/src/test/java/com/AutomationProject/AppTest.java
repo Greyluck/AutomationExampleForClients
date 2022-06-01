@@ -1,4 +1,4 @@
-package com.ionate;
+package com.AutomationProject;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

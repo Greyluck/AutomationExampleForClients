@@ -1,4 +1,4 @@
-package com.ionate;
+package com.AutomationProject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
